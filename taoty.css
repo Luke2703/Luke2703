@@ -36,7 +36,7 @@ body{
 }
 
 #banner{
-    background-image: url("image.png");
+    background-image: url("Web Img/image.png");
     height: 200px;
     width:100%;
     display: flex;
