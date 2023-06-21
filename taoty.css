@@ -100,8 +100,20 @@ li a:active{
     color: #01010b;
 }
 
-.images{
-    text-align: center;
+.zara,.tommy{
+    float:left;
+}
+.salmon,.bongwater{
+    float:right;
+}
+
+.spam,.salmon,.zara,.tommy,.rodere,.hotplate,.bongwater{
+    margin: 50px 100px;
+    border-radius: 5px;
+}
+
+.spam,.salmon,.zara{
+    box-shadow: 20px 20px 15px black;
 }
 
 
