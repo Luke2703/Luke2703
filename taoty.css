@@ -88,12 +88,16 @@ li a{
     padding: 10px 200px 10px 200px;
     text-decoration: none;
     background-color:#dc6719;
-    border-radius: 10px;
+    border-radius: 5px;
 }
       
 li a:hover {
-    background-color: #612c02;
-    transition: 1s;
+    color: #5c2c0c;
+    transition: color 0.15s;
+}
+
+li a:active{
+    color: #01010b;
 }
 
 .images{
