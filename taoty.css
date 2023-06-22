@@ -50,15 +50,6 @@ body{
 /*--------*/
 
 /* title and headings */
-#title{
-    text-align: center;
-    font-size: 50px;
-    font-family: 'Comforter';
-    text-transform: uppercase;
-    color:rgb(255, 255, 255);
-    margin-top:50px;
-    letter-spacing: 0.5em;
-}
 
 #gallery header,#about-me, #about-me, #terms, #commission{
     text-align: center;
