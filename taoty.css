@@ -115,16 +115,18 @@ li a:active{
     float: right;
     position:relative;
     right:300px;
+    top:300px;
 }
 .spam{
     position:relative;
-    
+    bottom:300px;
 }
 .salmon{
     position:relative;
     float:left;
     z-index: 600;
-    left:300px
+    left:300px;
+    top:300px;
 }
 
 .spam,.salmon,.zara{
