@@ -119,6 +119,7 @@ li a:active{
 }
 .spam{
     position:relative;
+    align-content: center;
     bottom:300px;
 }
 .salmon{
@@ -139,6 +140,8 @@ li a:active{
 .spam:hover,.salmon:hover,.zara:hover{
     box-shadow: 20px 20px 15px #ffa200;
     transition: 1s;
+    scale: 1.1;
+    z-index: 3000;
 }
 
 /*------------*/
