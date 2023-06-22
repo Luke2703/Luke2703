@@ -28,6 +28,12 @@ html{
 
 body{
     background-color:rgb(255, 255, 255);
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    text-align: center;
+    
 }
 
 /* Banner */
@@ -36,7 +42,7 @@ body{
     position:fixed;
     top:4px;
     left:20px;
-    z-index:3000;
+    z-index:2001;
     
 }
 
@@ -53,7 +59,7 @@ body{
     letter-spacing: 0.5em;
 }
 
-#about-me, #gallery, #about-me, #terms, #commission{
+#gallery header,#about-me, #about-me, #terms, #commission{
     text-align: center;
     color:#000000;
     text-transform: uppercase;
@@ -61,7 +67,10 @@ body{
     font-size: 25px;
     margin:50px;
     letter-spacing: 0.3em;
+    padding:100px;
 }
+
+
 /* --------------- */
 
 /* place holders */
@@ -86,6 +95,7 @@ body{
 
 .list-inline{
    overflow: hidden;
+   float:left;
 }
 li{
     display:inline-block;
@@ -111,23 +121,28 @@ li a:active{
 
 
 /* Images */
-.zara{
-    float: right;
-    position:relative;
-    right:300px;
-    top:300px;
+#gallery-image{
+    border: 2px transparent;
+    margin:100px 100px;
+    text-align: center;
+    padding:10px;
 }
-.spam{
-    position:relative;
-    align-content: center;
-    bottom:300px;
+.zara{
+    position: relative;
+    float:right;
+    right:300px;
+    margin-bottom:40px;
 }
 .salmon{
-    position:relative;
+    position: relative;
     float:left;
-    z-index: 600;
     left:300px;
-    top:300px;
+    z-index: 1500;
+    margin-bottom:40px;
+}
+.spam{
+    position: relative;
+
 }
 
 .spam,.salmon,.zara{
@@ -140,8 +155,8 @@ li a:active{
 .spam:hover,.salmon:hover,.zara:hover{
     box-shadow: 20px 20px 15px #ffa200;
     transition: 1s;
-    scale: 1.1;
-    z-index: 3000;
+    scale: 1.05;
+    z-index: 1900;
 }
 
 /*------------*/
@@ -156,28 +171,28 @@ p{
     position:fixed;
     top:25px;
     right:20px;
-    z-index:3000;
+    z-index:2000;
    
 }
 .insta{
     position:fixed;
     top:25px;
     right:110px;
-    z-index:3000;
+    z-index:2000;
    
 }
 .deviant{
     position:fixed;
     top:25px;
     right:200px;
-    z-index:3000;
+    z-index:2000;
    
 }
 .yt{
     position:fixed;
     top:25px;
     right:300px;
-    z-index:3000;
+    z-index:2000;
    
 }
 
