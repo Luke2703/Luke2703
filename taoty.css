@@ -33,7 +33,7 @@ body{
     height: 100vh;
     display: block;
     text-align: center;
-    
+    max-width: 100%;
 }
 
 /* Banner */
