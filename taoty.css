@@ -101,7 +101,7 @@ li a{
     opacity: 100;
 }
 li a:hover {
-    color: orangered;
+    color: #ffa200;
     transition: color 0.15s;
 }
 li a:active{
@@ -112,22 +112,19 @@ li a:active{
 
 /* Images */
 .zara{
-    position:absolute;
-    left:1300px;
-    margin-top:200px
+    float: right;
+    position:relative;
+    right:300px;
 }
 .spam{
     position:relative;
-    left:850px;
-    margin-bottom: 100px;
+    
 }
 .salmon{
     position:relative;
-    left:400px;
-    top: 100px;
-    margin-top: 100px;
+    float:left;
     z-index: 600;
-    
+    left:300px
 }
 
 .spam,.salmon,.zara{
@@ -138,7 +135,7 @@ li a:active{
     box-shadow: 20px 20px 15px black;
 }
 .spam:hover,.salmon:hover,.zara:hover{
-    box-shadow: 20px 20px 15px orangered;
+    box-shadow: 20px 20px 15px #ffa200;
     transition: 1s;
 }
 
@@ -180,7 +177,7 @@ p{
 }
 
 .yt:hover,.pin:hover,.deviant:hover,.insta:hover{
-    border-bottom: 2px solid orangered;
+    border-bottom: 2px solid #ffa200;
 }
 
 .yt:active,.pin:active,.deviant:active,.insta:active{
