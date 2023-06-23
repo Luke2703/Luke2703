@@ -169,7 +169,7 @@ li a:active{
 }
 .spam:hover,.salmon:hover,.zara:hover{
     box-shadow: 20px 20px 15px #ffa200;
-    transition: 1s;
+    transition: 0.5s;
     scale: 1.05;
     z-index: 1900;
 }
