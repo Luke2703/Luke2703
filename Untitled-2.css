@@ -1,0 +1,209 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: #1a1a1a;
+    min-width: 100%;
+}
+/*-------------------------------*/
+@media only screen and (max-width : 500px){
+    .container{
+        justify-content: center;
+    }
+    #smedia,#commission,#terms-of-service{
+        text-align: center;
+    }
+    .nav-item{
+        display:none;
+    }
+}
+#logo{
+    height:70px;
+    margin:15px 50px;
+}
+li:hover{
+    cursor: pointer;
+    box-shadow: 1.5px 1.5px 1px rgb(0, 0, 0);
+    scale:1.02;
+    font-size: large;
+}
+li:active{
+    scale:0.9;
+}
+a li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255)
+ }
+.nav-container{
+    display: flex;
+    background-color: #101010;
+    height:100px;
+    justify-content: flex-start;
+    width: 100%;
+}
+.nav-list{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin:10px 100px;
+    overflow:hidden;
+}
+.nav-item{
+    width:100px;
+    height:40px;
+    background-color: rgb(239, 148, 37);
+    margin: 10px 30px;
+    text-align: center;
+    padding-top:20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 1px rgb(0, 0, 0);
+}
+/*--------------GALLERY-------------------------*/
+
+.gallery-container{ 
+    display:flex;
+    flex-wrap: wrap;
+    border-bottom:2px solid #001417;
+    box-shadow: 0px 1px 1px;
+}
+a{
+    flex-grow: 1;
+    text-decoration: none;
+}
+.gallery-container img{
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+    height:150px;
+}
+.gallery-container img:hover{
+    cursor: pointer;
+
+}
+
+ /*---------------HEADINGS-----------------------*/
+
+#smedia{
+    color:white;
+    padding:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+/*---------------SECTION TWO-------------------------------*/
+#section-two{
+    margin:0 auto;
+    background-image: url("Web Img/1293302.jpg");
+    background-size: cover;
+    box-shadow: 0px 2px 2px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto 50px;
+    gap: 50px;
+    width:auto;
+    overflow:hidden;
+}
+.card1 h2,.card2 h2,.card3 h2,.card4 h2,.info-card h2{
+    background-color: #101010;
+    color:rgb(255, 255, 255);
+    padding: 20px;
+    margin:0;
+    border-radius: 10px 10px 0 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+}
+.card1 p,.card2 p,.card3 p,.card4 p,.info-card p{
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 1.3rem;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover{
+    scale:1.02;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.card1,.card2,.card3,.card4{
+    background-color: rgb(242, 155, 6);
+    height:300px;
+    width:270px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px;
+    display: block;
+    margin:50px
+}
+.info-card{
+    grid-area: info-card;
+    background-color: rgb(242, 155, 6);
+    border-radius: 10px 10px;
+    box-shadow: 2px 2px 5px;
+    max-width: 700px;
+    min-width:270px;
+    height:auto;
+    margin:50px
+}
+.card-image{
+    height:100px;
+    width:100px;
+    background-size: cover;
+    margin:10px auto;
+    border-radius: 0 0 10px 10px;
+}
+.img-1{
+    background-image: url("Web Img/YT.png");
+}
+.img-2{
+    background-image: url("Web Img/Insta.png");
+  
+}
+.img-3{
+    background-image: url("Web Img/Pin.png");
+}
+.img-4{
+    background-image: url("Web Img/DeviantArt.png");
+}
+/*---------------------SECTION THREE-------------------------------*/
+#commission{
+    color:white;
+    padding:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.container2{
+    margin:0 auto;
+    height:1000px;
+    background-color: #101010;
+}
+
+/*------------------------------------------------------*/
+
+#terms-of-service{
+    color:white;
+    padding:30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.container3{
+    margin:0 auto;
+    height:300px;
+    background-color: #101010;
+}
+
+
+
+
+
+
+
+
